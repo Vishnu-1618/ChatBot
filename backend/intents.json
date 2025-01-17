@@ -1,0 +1,366 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "Good morning", "What's up?", "Howdy"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Good to see you!", "Howdy!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "See you soon", "Farewell"],
+      "responses": ["Goodbye!", "See you later!", "Take care!", "Have a nice day!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "Thanks so much", "I’m grateful"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad to help!", "You're very welcome!"]
+    },
+    {
+      "tag": "question",
+      "patterns": ["What is your name?", "Who are you?", "What do you do?", "Tell me about yourself", "What can you do?"],
+      "responses": ["I'm a chatbot created to assist you!", "I'm here to help you with your queries!", "I'm your friendly assistant!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need help", "Help me", "Please assist me", "I need assistance", "Can you assist me?"],
+      "responses": ["Sure! What can I help you with?", "I'm here to assist you!", "What do you need help with?", "How can I assist you today?"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather?", "Is it going to rain?", "What's the temperature today?", "Tell me the weather"],
+      "responses": ["I can help you with weather details. Please check a weather app or website.", "The weather looks great today!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "I need a joke", "Tell me something funny", "Give me a joke"],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "I told my computer I needed a break, now it won't stop sending me KitKats.",
+        "Why don't programmers like nature? It has too many bugs!",
+        "What's orange and sounds like a parrot? A carrot!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "How's it going?", "How's everything?", "How are you doing?", "How are you feeling?"],
+      "responses": ["I'm just a bot, but I'm doing great!", "I'm here and ready to help!", "I'm functioning well, thank you for asking!", "I'm doing well, thanks for asking!"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["You're awesome", "You're great", "I like you", "You're amazing", "You're so cool"],
+      "responses": ["Thank you! You're awesome too!", "I appreciate that!", "You're pretty cool too!", "You’re awesome too!"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Play some music", "I want to listen to music", "Can you play a song?", "Play music", "Give me a tune"],
+      "responses": ["I can't play music right now, but you can use a music app to listen to your favorite songs!", "Check out Spotify or Apple Music for some great tunes!"]
+    },
+    {
+      "tag": "quote",
+      "patterns": ["Give me a quote", "I need an inspiring quote", "Tell me something motivational", "Send me a quote", "Give me a daily quote"],
+      "responses": [
+        "The only way to do great work is to love what you do. - Steve Jobs",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+        "Believe you can and you're halfway there. - Theodore Roosevelt",
+        "Don't watch the clock; do what it does. Keep going. - Sam Levenson"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["What’s the score?", "Who won the game?", "How’s my team doing?", "Tell me about the latest match", "How did my team perform?"],
+      "responses": ["I don’t have live sports data, but you can check ESPN or your favorite sports app!", "You can find live scores on many sports websites and apps."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "Where do you live?", "Tell me your location", "Where is your home?", "Where are you from?"],
+      "responses": ["I'm a virtual assistant, so I don't have a physical location.", "I exist in the cloud, helping users from all over the world!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "What's the current time?", "Give me the time", "What’s the clock saying?"],
+      "responses": ["You can check your device for the current time!", "It's always a good time to chat!"]
+    },
+    {
+      "tag": "math",
+      "patterns": ["What is 2 plus 2?", "Calculate 5 times 5", "What's 10 divided by 2?", "Can you solve 15 minus 3?", "What's 7 times 3?"],
+      "responses": ["The answer is 4.", "The result is 25.", "10 divided by 2 is 5.", "15 minus 3 equals 12.", "7 times 3 is 21."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["What's the latest news?", "Tell me the news", "Any recent updates?", "Give me the current news", "What’s happening in the world?"],
+      "responses": ["Check the news websites or apps for the latest updates.", "For the latest news, visit your favorite news outlet."]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["Tell me a fact", "Give me an interesting fact", "Do you know any facts?", "Share a random fact", "Give me a fun fact"],
+      "responses": [
+        "Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old!",
+        "A blue whale’s tongue weighs as much as an elephant!",
+        "The Eiffel Tower can be 15 cm taller during the summer due to the expansion of the metal in the heat.",
+        "Bananas are berries, but strawberries aren’t!"
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": ["I need a positive affirmation", "Give me some encouragement", "Tell me something positive", "Give me a boost", "I need motivation"],
+      "responses": [
+        "You are capable of achieving great things!",
+        "Believe in yourself; you've got this!",
+        "Every day is a new opportunity for success!",
+        "Keep going; you are doing great!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What's for dinner?", "What should I eat?", "Suggest some food", "I'm hungry, what should I eat?", "What's a good meal to make?"],
+      "responses": [
+        "How about a nice pizza?", "You could try some pasta, it's always delicious!", "How about some sushi or a healthy salad?", "Tacos are a great option!"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": ["How do I stay healthy?", "Give me some health tips", "What are some healthy habits?", "How can I be fit?", "What should I eat for good health?"],
+      "responses": [
+        "Exercise regularly, eat a balanced diet, and get enough sleep!",
+        "Drink plenty of water, eat fruits and vegetables, and get some sunlight!",
+        "Stay active, take the stairs instead of the elevator, and try yoga!",
+        "Don’t forget to check your mental health too. Meditation can help!"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["What is AI?", "Tell me about robotics", "How does machine learning work?", "Explain technology advancements", "What is blockchain?"],
+      "responses": [
+        "AI is the simulation of human intelligence in machines that are programmed to think and learn.",
+        "Robotics is a field of technology that deals with designing, building, and operating robots.",
+        "Machine learning is a subset of AI where systems learn from data and improve over time.",
+        "Blockchain is a decentralized digital ledger that records transactions across many computers."
+      ]
+    },
+    {
+      "tag": "gaming",
+      "patterns": ["Tell me about the latest games", "What's a popular game right now?", "Recommend a game", "I need a new game to play", "What's trending in gaming?"],
+      "responses": [
+        "Check out games like 'Cyberpunk 2077', 'Minecraft', or 'The Witcher 3'.",
+        "If you like action, try 'Call of Duty'. For adventure, go for 'Zelda: Breath of the Wild'.",
+        "For a great battle royale experience, try 'Fortnite' or 'Apex Legends'."
+      ]
+    },
+    {
+      "tag": "quote_of_the_day",
+      "patterns": ["Give me the quote of the day", "What is today's quote?", "Tell me a motivational quote for today", "What's the quote for today?", "I need some inspiration today"],
+      "responses": [
+        "The only way to do great work is to love what you do. - Steve Jobs",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+        "Believe you can and you're halfway there. - Theodore Roosevelt",
+        "Don't watch the clock; do what it does. Keep going. - Sam Levenson"
+      ]
+    },
+    {
+      "tag": "inspiration",
+      "patterns": ["Give me some inspiration", "I need inspiration", "I’m feeling down, give me something positive", "Inspire me", "Motivate me"],
+      "responses": [
+        "You are stronger than you think, and you have the power to change the world!",
+        "Dream big, work hard, and never give up!",
+        "The road to success is not straight, but every step forward brings you closer!",
+        "Stay positive, work hard, and make it happen!"
+      ]
+    },
+    {
+      "tag": "facts_about_space",
+      "patterns": ["Tell me a fact about space", "What's a fun fact about space?", "Give me a space fact", "Tell me something cool about the universe", "I want to learn about space"],
+      "responses": [
+        "Did you know that the largest known star is UY Scuti, which is about 1700 times the size of our Sun?",
+        "Space is completely silent. There’s no atmosphere to carry sound waves!",
+        "A day on Venus is longer than a year on Venus. It takes 243 Earth days to rotate once, but only 225 Earth days to orbit the Sun.",
+        "There are more stars in the universe than grains of sand on all the beaches on Earth!"
+      ]
+    },
+    {
+      "tag": "environment",
+      "patterns": ["How can I help the environment?", "Give me tips for saving the planet", "What can I do for the environment?", "How to be eco-friendly?", "Give me some eco-tips"],
+      "responses": [
+        "Start by reducing, reusing, and recycling. Every little bit counts!",
+        "Switch to renewable energy sources like solar or wind, if possible.",
+        "Use less plastic. Opt for reusable bags and bottles.",
+        "Consider adopting a plant-based diet to reduce your carbon footprint!"
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Where should I travel?", "Give me travel suggestions", "What are the best places to visit?", "Recommend me a vacation spot", "Where can I go for a holiday?"],
+      "responses": [
+        "You could try visiting Paris, the city of love and culture!",
+        "How about a tropical vacation in Bali or Hawaii for some sunshine?",
+        "If you're into history, Egypt and Greece are amazing destinations.",
+        "Japan offers a perfect mix of modernity and traditional beauty. Highly recommended!"
+      ]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": ["Recommend me a book", "What's a good book to read?", "I need a book suggestion", "Give me a book recommendation", "What should I read next?"],
+      "responses": [
+        "If you like fiction, try 'The Alchemist' by Paulo Coelho.",
+        "For an engaging mystery, check out 'Gone Girl' by Gillian Flynn.",
+        "If you're into fantasy, 'Harry Potter and the Sorcerer's Stone' is a must-read!",
+        "'Sapiens: A Brief History of Humankind' by Yuval Noah Harari is an amazing non-fiction book!"
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": ["Give me fitness tips", "How can I stay fit?", "What should I do to get in shape?", "How to build muscles?", "Give me a workout plan"],
+      "responses": [
+        "Start with regular cardio and strength training exercises like squats, push-ups, and running.",
+        "Consistency is key. Aim for at least 30 minutes of physical activity a day.",
+        "Consider incorporating yoga or pilates into your routine for flexibility and strength.",
+        "Make sure to stay hydrated and focus on a balanced diet to fuel your workouts!"
+      ]
+    },
+    {
+      "tag": "home_improvement",
+      "patterns": ["Any home improvement tips?", "How can I improve my home?", "Give me some home improvement ideas", "What can I do to upgrade my house?", "How can I make my house better?"],
+      "responses": [
+        "Start with small upgrades like new paint or updated light fixtures to transform the feel of a room.",
+        "Consider investing in smart home devices like thermostats, lights, or security cameras.",
+        "If you have outdoor space, planting a garden or adding outdoor furniture can elevate your home’s aesthetic.",
+        "Declutter and reorganize your home for a fresh, clean feel!"
+      ]
+    },
+    {
+      "tag": "parenting",
+      "patterns": ["Any parenting tips?", "How to be a better parent?", "Give me some advice on raising kids", "How can I improve my parenting skills?", "I need parenting help"],
+      "responses": [
+        "Listen to your kids. Be patient and try to understand their perspective.",
+        "Establish a healthy routine that includes time for schoolwork, play, and family bonding.",
+        "Set clear expectations and maintain consistency with discipline.",
+        "Encourage open communication and always show love and affection."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": ["Tell me a historical fact", "Give me some history", "What happened in history?", "Tell me about a historical event", "What’s a fun fact about history?"],
+      "responses": [
+        "The Great Wall of China was built over 2,000 years ago during the Ming dynasty!",
+        "The first airplane flight was made by the Wright brothers in 1903.",
+        "Cleopatra was not Egyptian; she was of Greek descent, part of the Ptolemaic dynasty!",
+        "In 1969, Neil Armstrong became the first person to walk on the moon during the Apollo 11 mission."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Give me motivation", "I need some encouragement", "Tell me something motivational", "Help me stay motivated", "Give me a boost"],
+      "responses": [
+        "You are capable of achieving great things! Keep going!",
+        "Believe in yourself. You're stronger than you think!",
+        "Don't give up, success is just around the corner!",
+        "Keep pushing, you're doing amazing! Every step counts."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather today?", "Tell me the weather", "Is it going to rain today?", "Weather forecast"],
+      "responses": [
+        "I don't have access to live weather data right now, but you can check your local weather forecast online!",
+        "You can use websites like Weather.com or your favorite weather app to get up-to-date weather information."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "I need a joke", "Give me a funny joke", "Tell me something funny"],
+      "responses": [
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats!",
+        "Why don’t eggs tell jokes? Because they might crack up!",
+        "What do you call fake spaghetti? An impasta!"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": ["What's your favorite music?", "What music do you recommend?", "Give me a music recommendation", "What should I listen to?", "Suggest me some music"],
+      "responses": [
+        "If you're in the mood for something calming, try listening to classical music or lo-fi beats.",
+        "For a fun vibe, you can try pop hits or some upbeat EDM tracks.",
+        "If you love rock, check out Led Zeppelin or The Rolling Stones!",
+        "For a deeper connection with music, listen to some acoustic or indie artists like Bon Iver or The Lumineers."
+      ]
+    },
+    {
+      "tag": "recipe",
+      "patterns": ["Give me a recipe", "What should I cook?", "I need a recipe suggestion", "What's a good recipe?", "Tell me a cooking idea"],
+      "responses": [
+        "How about a classic spaghetti bolognese? It's easy to make and delicious!",
+        "Try making a simple stir-fry with your favorite vegetables and protein. Quick and healthy!",
+        "A homemade pizza can be fun to make. Get some dough and top it with your favorite ingredients!",
+        "Why not try a vegetable curry? You can use seasonal veggies and enjoy a flavorful dish!"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": ["Give me health tips", "How to stay healthy?", "What are some health tips?", "Tell me how to be healthier", "Give me wellness advice"],
+      "responses": [
+        "Eat a balanced diet with plenty of fruits and vegetables to stay energized.",
+        "Exercise regularly, even if it’s just a short walk every day, to improve your health.",
+        "Drink plenty of water! Staying hydrated is key to good health.",
+        "Get enough sleep each night. 7-8 hours of sleep is recommended for optimal health."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What's the time?", "Tell me the time", "What time is it?", "Give me the current time", "How much time is left?"],
+      "responses": [
+        "Sorry, I don't have access to real-time data, but you can check your device's clock.",
+        "You can always check the time on your phone, watch, or computer!"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Tell me about technology", "What's new in tech?", "Give me some tech news", "What are the latest tech trends?", "What's happening in the tech world?"],
+      "responses": [
+        "Artificial Intelligence and Machine Learning continue to grow and evolve rapidly!",
+        "5G technology is revolutionizing communication with faster speeds and more connectivity.",
+        "The rise of augmented reality (AR) and virtual reality (VR) is changing how we interact with the world.",
+        "Blockchain and cryptocurrencies like Bitcoin are gaining more attention in the tech world."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Tell me about sports", "What's happening in sports?", "Give me sports news", "What are the latest sports updates?", "Tell me something about a sport"],
+      "responses": [
+        "Football season is in full swing, with the biggest leagues around the world playing matches regularly.",
+        "Tennis is heating up, with major tournaments like Wimbledon and the US Open offering exciting action.",
+        "Basketball fans are enjoying the NBA season with teams battling it out for playoff spots.",
+        "Formula 1 racing continues to deliver thrills with incredible speed and strategy on the track!"
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Give me movie suggestions", "What should I watch?", "Tell me about movies", "I need a movie recommendation", "Suggest me a movie"],
+      "responses": [
+        "If you're into action, try watching 'Mad Max: Fury Road' or 'John Wick' for some epic fight scenes!",
+        "For a thought-provoking drama, 'The Shawshank Redemption' or 'Inception' are incredible choices.",
+        "If you're in the mood for comedy, try 'The Hangover' or 'Superbad' for some laughs.",
+        "For an emotional rollercoaster, check out 'The Pursuit of Happyness' or 'Forrest Gump'."
+      ]
+    },
+    {
+      "tag": "quotes",
+      "patterns": ["Give me a quote", "Tell me a quote", "What is a famous quote?", "Tell me a thought-provoking quote", "Give me a wisdom quote"],
+      "responses": [
+        "The journey of a thousand miles begins with one step. – Lao Tzu",
+        "Success is not the key to happiness. Happiness is the key to success. – Albert Schweitzer",
+        "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. – Ralph Waldo Emerson",
+        "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt"
+      ]
+    },
+    {
+      "tag": "study",
+      "patterns": ["Give me study tips", "How can I study better?", "Tell me how to study", "Give me some study advice", "What are some good study habits?"],
+      "responses": [
+        "Set clear goals and break down your study material into manageable chunks.",
+        "Make a study schedule to allocate specific time slots for different subjects.",
+        "Take regular breaks to keep your mind fresh and improve concentration.",
+        "Try teaching the material to someone else to reinforce your understanding."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+  font-family: 'Cinzel', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  font-size: 16px; /* Increased base font size */
+  background: linear-gradient(135deg, #ffab91, #80deea); /* Updated light gradient background */
+}
+
+/* Chat Container */
+.chat-container {
+  width: 900px;
+  height: 650px;
+  background: linear-gradient(135deg, #ffffff, #e3f2fd); /* Light gradient for chat container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed;
+  bottom: 30px;
+  right: 325px;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Header */
+.chat-header {
+  background: linear-gradient(45deg, #8e44ad, #c39bd3); /* Gradient with purple tones */
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Chat Box */
+.chat-box {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Subtle separator */
+}
+
+/* Message Styles */
+.chat-box .bot-message {
+  align-self: flex-start;
+  background: linear-gradient(135deg, #b2ebf2, #80deea); /* Soft blue-green gradient */
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  max-width: 80%;
+  font-size: 1em;
+  color: #006064; /* Deep teal for text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.chat-box .user-message {
+  align-self: flex-end;
+  background: linear-gradient(135deg, #ffccbc, #ffab91); /* Soft peach-orange gradient */
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  max-width: 80%;
+  font-size: 1em;
+  color: #bf360c; /* Deep orange for text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Area */
+.input-container {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Upload Button */
+#upload-btn {
+  margin-right: 10px;
+  padding: 12px;
+  background: linear-gradient(45deg, #8e44ad, #c39bd3); /* Matching header gradient */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#upload-btn:hover {
+  background: linear-gradient(45deg, #732d91, #a569bd); /* Darker hover gradient */
+  transform: scale(1.05);
+}
+
+#upload-btn:active {
+  transform: scale(0.95);
+}
+
+/* File Input */
+#file-input {
+  display: none;
+}
+
+/* User Input Field */
+#user-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.1em;
+  outline: none;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#user-input:focus {
+  border-color: #8e44ad; /* Related to header gradient */
+  box-shadow: 0 0 15px rgba(142, 68, 173, 0.4);
+}
+
+/* Send Button */
+#send-btn {
+  margin-left: 10px;
+  padding: 12px;
+  background: linear-gradient(45deg, #8e44ad, #c39bd3); /* Matching header gradient */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#send-btn:hover {
+  background: linear-gradient(45deg, #732d91, #a569bd); /* Darker hover gradient */
+  transform: scale(1.05);
+}
+
+#send-btn:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <title>Modern ChatBot</title>
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>AI ChatBot</h1>
+    </header>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="input-container">
+      <button id="upload-btn" title="Upload File">
+        <i class="fas fa-upload"></i>
+      </button>
+      <input type="file" id="file-input" title="Upload File" accept="image/*, .txt, .pdf">
+      <input type="text" id="user-input" placeholder="Type your message...">
+      <button id="send-btn" title="Send">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
